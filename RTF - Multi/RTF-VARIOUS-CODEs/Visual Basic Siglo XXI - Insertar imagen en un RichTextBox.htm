@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Visual Basic Siglo XXI - Insertar imagen en un RichTextBox</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+<META NAME="RESOURCE-TYPE" CONTENT="DOCUMENT">
+<META NAME="DISTRIBUTION" CONTENT="GLOBAL">
+<META NAME="AUTHOR" CONTENT="Gustavo Adolfo Alegre Hidalgo">
+<META NAME="COPYRIGHT" CONTENT="Copyright (c) Cultura General 2004. Todos los derechos reservados.">
+<META NAME="KEYWORDS" CONTENT="programacion, programación, visual, basic, lenguaje, sistema, programa, archivo, formulario, módulo, modulo, clase, proyecto, proyectos, entorno, performance, internet, aplicacion, aplicación, aplicaciones, instalacion, instalación, ejemplos, trucos, codigo, código, fuente, entorno, IDE, Ide, ide, foros">
+<META NAME="DESCRIPTION" CONTENT="P&aacute;gina web dedicada a la programaci&oacute;n en Visual Basic. Contiene ejemplos, trucos, controles, y mucho m&aacute;s.">
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<META NAME="REVISIT-AFTER" CONTENT="1 DAYS">
+<META NAME="RATING" CONTENT="GENERAL">
+<META NAME="GENERATOR" CONTENT="PHP-Nuke - Copyright by http://phpnuke.org">
+<LINK REL="SHORTCUT ICON" HREF="/favicon.ico">
+<LINK REL="StyleSheet" HREF="themes/Kaput/style/style.css" TYPE="text/css">
+
+
+
+
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#363636" vlink="#363636" alink="#d5ae83" leftmargin="5">
+<br>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><table border="0"><tr><td rowspan="2"><a href="index.php"><img src="themes/Kaput/images/logo.gif" border="0" alt="Bienvenido a Visual Basic Siglo XXI" align="left"></a></td><td align=center valign=center width=100%><iframe src="/banners/rotarbanners.php" NORESIZE SCROLLING=no HSPACE=0 VSPACE=0 FRAMEBORDER=0 MARGINHEIGHT=0 MARGINWIDTH=0 width=468 height=60 style="border: 1px solid #000000"></iframe></td></tr><tr><td align="right" valign="bottom" width="100%"><font class="content"><b><A href="/">Inicio</a>&nbsp;&middot;&nbsp;<A href="articulos.html">Artículos</a>&nbsp;&middot;&nbsp<A href="descargas.html">Descargas</a>&nbsp;&middot;&nbsp;<A href="modules.php?name=Your_Account">Tu cuenta</a>&nbsp;&middot;&nbsp;<A href="modules.php?name=Forums">Foros</a>&nbsp;&middot;&nbsp;<A href="top.html">Top 10</a></b></font></td></tr></table>
+</td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br><br><table cellpadding="0" cellspacing="0" width="99%" border="0" align="center" bgcolor="#ffffff">
+<tr><td bgcolor="#ffffff" valign="top">
+<table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>Módulos</b></font></center><br><strong><big>&middot;</big></strong>&nbsp;<a href="index.php">Inicio</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="articulos.html">Artículos</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Journal">Blogs</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Search">Buscar</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Feedback">Comentarios</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="descargas.html">Descargas</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Surveys">Encuestas</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="enlaces.html">Enlaces</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="enviar.html">Enviar artículos</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Statistics">Estadísticas</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="foros.html">Foros</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Private_Messages">Mensajes privados</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Recommend_Us">Recomiéndanos</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="top.html">Top 10</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Your_Account">Tu cuenta</a><br>
+</td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br><table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>Búsqueda en nuestra web</b></font></center><br><form action="modules.php?name=Search" method="post"><br><center><input type="text" name="query" size="15"><br><input type="submit" value="Buscar"></center></form></td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br><table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>¿Quién está en línea?</b></font></center><br><center><font class="content">Actualmente hay 11 invitados, 1 miembro(s) conectado(s).<br><br>Eres un usuario anónimo. Puedes registrarte <a href="modules.php?name=Your_Account">aquí</a></font></center></td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br><table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>Páginas amigas</b></font></center><br><center>
+<a href="http://www.codigo-web.com" target="_blank"><img src="/minibanners/codigoweb.gif" border="0" alt="Código web"></a>
+<br>
+<a href="http://www.ganadinerointernet.com.ar/" target="_blank"><img border="0" src="http://www.ganadinerointernet.com.ar/images/ganabotonproto.gif" width="88" height="31" alt="!!! Gana dinero gratis !!!"></a>
+<br><br>
+<font face="Verdana" size="1">
+<a href="http://www.mundojavascript.com/cgi-bin/psrefer/psrefer.cgi?id=galegre&action=hit" target="_blank">Mundo JavaScript</a></font>
+<br><br>
+<a href="http://www.spreadfirefox.com/?q=affiliates&id=0&t=70"><img border="0" alt="Get Firefox!" title="Get Firefox!" src="http://www.spreadfirefox.com/community/images/affiliates/Buttons/88x31/get.gif"/></a>
+<br><br>
+<font face="Verdana" size="1">
+<a href="http://www.genesiscultural.com" target="_blank" title="Génesis Cultural - Sorteo de visas">Sorteo de visas</a></font>
+<br><br>
+<font face="Verdana" size="1">
+<a href="http://www.vbsiglo21.net/chicho" target="_blank" title="Raúl Édmar Astohuamán Astocaza - Audios de Chicho">Audios de Chicho</a></font>
+<br><br>
+<a href="http://www.activelock.com" target="_blank"><img src="http://www.activelock.com/images/buttons/alock-btn-87x24.gif" alt="ActiveLock" title="ActiveLock" border="0"></a>
+<br><br>
+<font face="Verdana" size="1">
+<a href="http://www.cabcontrol.net" target="_blank" title="Sistema de control de Cybercafés CabControl">CabControl</a></font>
+<br><br>
+<font face="Verdana" size="1">
+<a href="http://gustavoalegre.blogcindario.com" target="_blank" title="El Blog de Gustavo Alegre">Blog de Gustavo Alegre</a></font>
+</center></td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br><table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>Los 10 más descargados</b></font></center><br><strong><big>&middot;</big></strong>&nbsp;1: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=10&amp;title=DataReport sin DataEnvironment">DataReport sin DataEnvironment</a><br><strong><big>&middot;</big></strong>&nbsp;2: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=8&amp;title=Curso de Visual Basic 6.0 (Dividido en 9 lecciones)">Curso de Visual Basic 6.0 (Dividido en 9 lecciones)</a><br><strong><big>&middot;</big></strong>&nbsp;3: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=9&amp;title=Ejemplo de uso del ScrollBar">Ejemplo de uso del ScrollBar</a><br><strong><big>&middot;</big></strong>&nbsp;4: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=7&amp;title=Aprenda Visual Basic 6.0 como si estuviera en primero">Aprenda Visual Basic 6.0 como si estuviera en primero</a><br><strong><big>&middot;</big></strong>&nbsp;5: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=4&amp;title=Líneas 3D">Líneas 3D</a><br><strong><big>&middot;</big></strong>&nbsp;6: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=5&amp;title=TextBox que sólo acepta mayúsculas">TextBox que sólo acepta mayúsculas</a><br><strong><big>&middot;</big></strong>&nbsp;7: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=3&amp;title=Control de inactividad">Control de inactividad</a><br><strong><big>&middot;</big></strong>&nbsp;8: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=2&amp;title=Cambiar la fecha y la hora del sistema">Cambiar la fecha y la hora del sistema</a><br><strong><big>&middot;</big></strong>&nbsp;9: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=1&amp;title=Eliminar o reemplazar un caracter de una cadena">Eliminar o reemplazar un caracter de una cadena</a><br><strong><big>&middot;</big></strong>&nbsp;10: <a href="modules.php?name=Downloads&amp;d_op=viewdownloaddetails&amp;lid=6&amp;title=No restaurar ventana">No restaurar ventana</a><br></td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br></td><td><img src="themes/NukeNews/images/pixel.gif" width="15" height="1" border="0" alt=""></td><td width="100%" valign=top>
+<table width="100%" border="0"><tr><td valign="top" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><font class="option" color="#363636"><b>Insertar imagen en un RichTextBox</b></font><br>
+<font class="content">Posted on Saturday, 25 September a las 22:42:25 by <a href="http://www.vbsiglo21.net">galegre</a><br><br><a href="modules.php?name=News&amp;new_topic=2"><img src="images/topics/vbgif.gif" border="0" Alt="Visual Basic" align="right" hspace="10" vspace="10"></a>
+<font class="content" color="#505050">Cómo insertar imágenes JPG, GIF y BMP de una forma sencilla.<br><br><p>A veces es necesario aprovechar todos los recursos que nos brinda el control RichTextBox. Si estamos creando un procesador de textos con este control, nos sería interesante hacer que nuestros programas tengan muchas posibilidades (formato, color, viñetas, etc) pero entre una de ellas está la de poder insertar imágenes dentro del documento. Para ello vamos a usar el Portapapeles y una llamada a la API SendMessage para lograr poner la imagen dentro del RichTextBox. El proyecto también tiene el control CommonDialog para abrir la imagen.</p>
+
+<p>Código:</p>
+
+<pre><font face="Courier New" size=2>
+<font color = #0000FF>Option</font> <font color = #0000FF>Explicit</font>
+<font color = #0000FF>Private</font> <font color = #0000FF>Declare</font> <font color = #0000FF>Function</font> SendMessage <font color = #0000FF>Lib</font> <font color = #408080>"user32"</font> <font color = #0000FF>Alias</font> <font color = #408080>"SendMessageA"</font> _
+(<font color = #0000FF>ByVal</font> hWnd <font color = #0000FF>As</font> <font color = #0000FF>Long</font>, <font color = #0000FF>ByVal</font> wMsg <font color = #0000FF>As</font> <font color = #0000FF>Long</font>, _
+<font color = #0000FF>ByVal</font> wParam <font color = #0000FF>As</font> <font color = #0000FF>Long</font>, lParam <font color = #0000FF>As</font> <font color = #0000FF>Long</font>) <font color = #0000FF>As</font> <font color = #0000FF>Long</font>
+<font color = #0000FF>Private</font> <font color = #0000FF>Const</font> WM_PASTE = &H302
+
+<font color = #0000FF>Private</font> <font color = #0000FF>Sub</font> cmdInsertarImagen_Click()
+<font color = #0000FF>On</font> <font color = #0000FF>Error</font> <font color = #0000FF>GoTo</font> ErrorImagen
+<font color = #0000FF>Dim</font> strRutaImagen <font color = #0000FF>As</font> <font color = #0000FF>String</font>
+<font color = #0000FF>Dim</font> imgLaImagen <font color = #0000FF>As</font> Picture
+<font color = #0000FF>Dim</font> strContenidoPortapapeles <font color = #0000FF>As</font> <font color = #0000FF>String</font>
+<font color = #0000FF>With</font> cdlImagen
+    .DialogTitle = <font color = #408080>"Insertar imagen"</font>
+    .CancelError = <font color = #0000FF>True</font>
+    .Filter = <font color = #408080>"Todos los archivos de imágenes|*.gif;*.jpg;*.jpe;*.bmp;*.png|"</font> _
+    & <font color = #408080>"Imágenes GIF (*.gif)|*.gif|Imágenes JPG (*.jpg, *.jpe)|*.jpg;*.jpe|"</font> _
+    & <font color = #408080>"Imágenes de mapas de bits (*.bmp)|*.bmp|Imágenes PNG (*.png)|*.png|</font> _
+    & <font color = #408080>"Todos los archivos (*.*)|*.*"</font>
+    .FilterIndex = 1
+    .Flags = cdlOFNFileMustExist <font color = #0000FF>Or</font> cdlOFNHideReadOnly
+    .ShowOpen
+    strRutaImagen = .FileName
+<font color = #0000FF>End</font> <font color = #0000FF>With</font>
+<font color = #0000FF>Set</font> imgLaImagen = LoadPicture(strRutaImagen)
+strContenidoPortapapeles = Clipboard.GetText
+Clipboard.Clear
+Clipboard.SetData imgLaImagen
+SendMessage rtfTexto.hWnd, WM_PASTE, 0, 0
+Clipboard.Clear
+Clipboard.SetText strContenidoPortapapeles
+<font color = #0000FF>Exit</font> <font color = #0000FF>Sub</font>
+ErrorImagen:
+<font color = #0000FF>If</font> Err.Number <> 32755 <font color = #0000FF>Then</font>
+    MsgBox <font color = #408080>"Error "</font> & Err.Number & <font color = #408080>" "</font> & Err.Description
+    <font color = #0000FF>Exit</font> <font color = #0000FF>Sub</font>
+<font color = #0000FF>End</font> <font color = #0000FF>If</font>
+<font color = #0000FF>End</font> <font color = #0000FF>Sub</font>
+
+</font></pre>
+
+<p>La imagen queda insertada en el RichTextBox como si de un objeto se tratase. Se puede cambiar de tamaño, mover, y el texto va acompañado de la imagen.</p><br></font>
+<br>
+
+
+</td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br></td><td>&nbsp;</td><td valign="top">
+<table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>Enlaces Relacionados</b></font></center><br><font class="content"><strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Search&amp;topic=2">Más Acerca de Visual Basic</a><br>
+<strong><big>&middot;</big></strong>&nbsp;<a href="modules.php?name=Search&amp;author=galegre">Noticias de galegre</a>
+</font><br><hr noshade width="95%" size="1"><center><font class="content"><b>Noticia más leída sobre Visual Basic:</b><br>
+<a href="articulo5.html">Cronómetro usando la API GetTickCount</a></font></center><br>
+</td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br><table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>Votos del Artículo</b></font></center><br><center>Puntuación Promedio: <b>4</b><br>votos: <b>1</b><br><br><img src="images/articles/stars-4.gif" border="1"></center><br><form action="modules.php?name=News" method="post"><center>Por favor tómate un segundo y vota por este artículo:</center><br><input type="hidden" name="sid" value="3"><input type="hidden" name="op" value="rate_article"><input type="radio" name="score" value="5"> <img src="images/articles/stars-5.gif" border="0" alt="Excelente" title="Excelente"><br><input type="radio" name="score" value="4"> <img src="images/articles/stars-4.gif" border="0" alt="Muy Bueno" title="Muy Bueno"><br><input type="radio" name="score" value="3"> <img src="images/articles/stars-3.gif" border="0" alt="Bueno" title="Bueno"><br><input type="radio" name="score" value="2"> <img src="images/articles/stars-2.gif" border="0" alt="Regular" title="Regular"><br><input type="radio" name="score" value="1"> <img src="images/articles/stars-1.gif" border="0" alt="Malo" title="Malo"><br><br><center><input type="submit" value="Grabar mi Voto!"></center></form><br></td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br><table border=0 cellspacing=0 cellpadding=0 width=150><tr><td width=17 height=17><img src=themes/Kaput/images/up-left.gif alt="" border=0></td><td background=themes/Kaput/images/up.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/up-right.gif width=17 height=17 alt="" border=0></td></tr><tr><td background=themes/Kaput/images/left.gif width=17>&nbsp;</td><td background=themes/Kaput/images/backdot.gif width=126><center><font class=content><b>Opciones</b></font></center><br><br>&nbsp;<img src="images/print.gif" border="0" alt="Versión Imprimible" title="Versión Imprimible" width="16" height="11">&nbsp;&nbsp;<a href="modules.php?name=News&amp;file=print&amp;sid=3">Versión Imprimible</a><br><br>&nbsp;<img src="images/friend.gif" border="0" alt="Enviar a un Amigo" title="Enviar a un Amigo" width="16" height="11">&nbsp;&nbsp;<a href="modules.php?name=News&amp;file=friend&amp;op=FriendSend&amp;sid=3">Enviar a un Amigo</a><br><br>
+</td><td background=themes/Kaput/images/right.gif>&nbsp;</td></tr><tr><td width=17 height=17><img src=themes/Kaput/images/down-left.gif alt="" border=0></td><td background=themes/Kaput/images/down.gif align=center width=100% height=17>&nbsp;</td><td><img src=themes/Kaput/images/down-right.gif width=17 height=17 alt="" border=0></td></tr></td></tr></table><br></td></tr></table>
+
+
+<!-- COMMENTS NAVIGATION BAR START -->
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td bgcolor="#d5d5d5" align="center" width="100%">
+<table border="0"><tr><td><font class="content">
+<form action="modules.php?name=News&amp;file=comments" method="post"><input type="hidden" name="pid" value=""><input type="hidden" name="sid" value="3"><input type="hidden" name="op" value="Reply">&nbsp;&nbsp;<input type="submit" value="Enviar Comentario"></font></form></td></tr></table></td></tr><tr><td bgcolor="#7b91ac" align="center"><font class="tiny">Los comentarios son propiedad de quien los envió. No somos responsables por su contenido.</font></td></tr></table>
+
+<!-- COMMENTS NAVIGATION BAR END -->
+
+</td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br><br><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><a name="1"></a><table width="99%" border="0"><tr bgcolor="#d5d5d5"><td width="500"><b>Re: Insertar imagen en un RichTextBox</b> <font class="content">(Puntuación 0)<br>por Anonymous el Friday, 07 January a las 00:49:55</font></td></tr><tr><td>gracias por el consejo lo voy a poner en uso bastante gracias</td></tr></table><br><br><font class="content"> [ <a href="modules.php?name=News&amp;file=comments&amp;op=Reply&amp;pid=1&amp;sid=3&amp;mode=&amp;order=&amp;thold=">Responder a ésto</a> ]</font><br><br></ul></td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br><br><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><a name="5"></a><table width="99%" border="0"><tr bgcolor="#d5d5d5"><td width="500"><b>Re: Insertar imagen en un RichTextBox</b> <font class="content">(Puntuación 0)<br>por Anonymous el Friday, 08 July a las 19:57:02</font></td></tr><tr><td></td></tr></table><br><br><font class="content"> [ <a href="modules.php?name=News&amp;file=comments&amp;op=Reply&amp;pid=5&amp;sid=3&amp;mode=&amp;order=&amp;thold=">Responder a ésto</a> ]</font><br><br></ul></td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br><br><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><a name="6"></a><table width="99%" border="0"><tr bgcolor="#d5d5d5"><td width="500"><b>Re: Insertar imagen en un RichTextBox</b> <font class="content">(Puntuación 0)<br>por Anonymous el Tuesday, 12 July a las 11:21:38</font></td></tr><tr><td>la verda es que es genial pero me gustaria saber si hay alguna forma de que no se pueda modificar el tamaño de la imagen que as insertado, si es que se puede </td></tr></table><br><br><font class="content"> [ <a href="modules.php?name=News&amp;file=comments&amp;op=Reply&amp;pid=6&amp;sid=3&amp;mode=&amp;order=&amp;thold=">Responder a ésto</a> ]</font><br><br></ul></td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br><br><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><a name="14"></a><table width="99%" border="0"><tr bgcolor="#d5d5d5"><td width="500"><b>Re: Insertar imagen en un RichTextBox</b> <font class="content">(Puntuación 0)<br>por Anonymous el Tuesday, 18 April a las 19:08:50</font></td></tr><tr><td>me gustaria como reemplazar texto por imagen.. <br />
+<br />
+aun no encuentro la solucion.. es para un chat<br />
+mi mail es sobick@gmail.com</td></tr></table><br><br><font class="content"> [ <a href="modules.php?name=News&amp;file=comments&amp;op=Reply&amp;pid=14&amp;sid=3&amp;mode=&amp;order=&amp;thold=">Responder a ésto</a> ]</font><br><br></ul></td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br><br><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><a name="16"></a><table width="99%" border="0"><tr bgcolor="#d5d5d5"><td width="500"><b>Re: Insertar imagen en un RichTextBox y grabarlo en una base de datos..</b> <font class="content">(Puntuación 0)<br>por Anonymous el Friday, 12 May a las 21:30:10</font></td></tr><tr><td>hola..<br />
+sabes... que no se como poner una imagen desde visual .. grabarla en acces....<br />
+<br />
+como se puede asignar un objeto... que se pueda grabar en una bdd.????<br />
+<br />
+una imagen??/<br />
+alfonso_noe@msn.com</td></tr></table><br><br><font class="content"> [ <a href="modules.php?name=News&amp;file=comments&amp;op=Reply&amp;pid=16&amp;sid=3&amp;mode=&amp;order=&amp;thold=">Responder a ésto</a> ]</font><br><br></ul></td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br></td></tr></table>
+<br><center>
+<!-- INICIO GeoPromos.es - Autobanner 468x60 -- www.vbsiglo21.net -->
+<script language="javascript" type="text/javascript">
+document.write('<iframe src="http://delivery.geopromos.es:8080/rotation/235383.30195.1.subid..'+ new Date().getTime() +'" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" width="468" height="60"></iframe>');
+</script>
+<noscript><table border="0" bgcolor="#cccccc" width="468" height="60" align="center" valign="middle"><tr valign="middle"><td align="center"><a href="http://www.geopromos.com">Publicidad en programas de afiliados gestionada por Geopromos</a></td></tr></table></noscript>
+<!-- FIN GeoPromos.es - Autobanner 468x60 -- www.vbsiglo21.net -->
+</center><br>
+<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/up-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/up2.gif" align="center" width="100%" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/up-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    <tr>
+    <td background="themes/Kaput/images/left2.gif" width="15">&nbsp;</td>
+    <td bgcolor="ffffff" width="100%"><center><font class="footmsg">
+Cultura general © 2006. Todos los derechos reservados.<br>Visual Basic es una marca registrada de Microsoft Corporation.<br>
+Esta web ha sido elaborada utilizando <a href="http://phpnuke.org"><font class="footmsg_l">PHP-Nuke</font></a>. Copyright &copy; 2005. Todos los derechos reservados. PHP-Nuke es un Software Libre desarrollado bajo la licencia <a href="http://www.gnu.org"><font class="footmsg_l">GNU/GPL</font></a>.<br>Página Generada en: 0.041 Segundos<br>
+</font>
+</center></td>
+    <td background="themes/Kaput/images/right2.gif">&nbsp;</td></tr>
+    <tr>
+    <td width="15" height="15"><img src="themes/Kaput/images/down-left2.gif" alt="" border="0"></td>
+    <td background="themes/Kaput/images/down2.gif" align="center" height="15">&nbsp;</td>
+    <td><img src="themes/Kaput/images/down-right2.gif" width="15" height="15" alt="" border="0"></td></tr>
+    </td></tr></table>
+    <br><!-- Begin Nedstat Basic code -->
+<!-- Title: Visual Basic Siglo XXI -->
+<!-- URL: http://www.vbsiglo21.net/ -->
+<script language="JavaScript" type="text/javascript" src="http://m1.nedstatbasic.net/basic.js">
+</script>
+<script language="JavaScript" type="text/javascript" >
+<!--
+  nedstatbasic("ADFVPAd9uOMqIbLguITcbxSDR4uw", 0);
+// -->
+</script>
+<noscript>
+<a target="_blank" href="http://www.nedstatbasic.net/stats?ADFVPAd9uOMqIbLguITcbxSDR4uw"><img
+src="http://m1.nedstatbasic.net/n?id=ADFVPAd9uOMqIbLguITcbxSDR4uw"
+border="0" width="18" height="18"
+alt="Nedstat Basic - Web site estadísticas gratuito
+El contador para sitios web particulares"></a><br>
+<a target="_blank" href="http://www.nedstatbasic.net/">Contador gratuito</a>
+</noscript>
+<!-- End Nedstat Basic code -->
+</body>
+</html>
