@@ -1,0 +1,3 @@
+# RTF_ELEMENTS
+notepads encontrados por ahi que usan un RTF (RIchTExtBOx).
+ayudas, cabeceras, tips, coloreado de sintaxis etc...
